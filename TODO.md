@@ -51,18 +51,18 @@ Source: https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarizati
   - Neural: RoBERTa/BERT fine-tune
   - Metrics: Accuracy, Precision, Recall, F1
 
-### Emotion Dataset
-Source: https://www.kaggle.com/datasets/parulpandey/emotion-dataset
+### TED Talk
+Source: https://www.kaggle.com/datasets/miguelcorraljr/ted-ultimate-dataset
 
-- App A: Emotion classification
-  - Traditional: TF-IDF + LogisticRegression/SVM
-  - Neural: BERT/RoBERTa fine-tune; optional LLM (ChatGPT) comparisons
-  - Metrics: Accuracy, Precision, Recall, F1, Macro-F1
+- App A: Talk occupation classification
+  - Traditional: Logistic Regression (TF-IDF)
+  - Neural: Fine-tuned BERT/RoBERTa
+  - Metrics: Accuracy, Precision, Recall, F1
 
-- App B: (optional extension) Emotion intensity / span detection
-  - Traditional: rule-based + regression/classifier
-  - Neural: sequence labeling or regressor with transformers
-  - Metrics: task-dependent (e.g., Pearson/Spearman for intensity)
+- App B: Talk topic clustering
+  - Traditional: K-Means on TF-IDF vectors
+  - Neural: Sentence-BERT embeddings + clustering
+  - Metrics: Topic coherence, Silhouette score
 
 ## UI approach
 - Each dataset gets a dataset-specific UI under `src/ui/` (e.g., `src/ui/amazon_app.py`, `src/ui/cnn_app.py`, `src/ui/emotion_app.py`). These apps load the saved models for that dataset and provide side-by-side comparisons between the chosen Traditional and Neural models.
