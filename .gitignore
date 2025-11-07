@@ -1,3 +1,7 @@
+data/Dataset1 
+data/Dataset2 
+data/Dataset3
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
