@@ -4,19 +4,25 @@ scikit-learn==1.3.0
 numpy==1.26.4
 pandas==2.2.2
 transformers==4.35.0
-torch==2.2.0
 datasets==2.12.0
+accelerate==0.26.0
+peft==0.7.1
+bitsandbytes==0.43.1 ; platform_system != "Windows"  # GPU 8-bit (ignored on Windows if unsupported)
+torch==2.2.0
 rouge-score==0.1.2
 sacrebleu==2.3.1
-streamlit==1.30.0
 sentencepiece==0.1.99
 protobuf==4.24.1
-flask==3.0.0
 matplotlib==3.8.1
 seaborn==0.12.2
 evaluate==0.4.0
+jsonlines==4.0.0
+typer==0.9.0
+tqdm==4.66.1
+safetensors==0.4.2
 
 # Optional / dev
 jupyterlab==4.3.1
 black==24.3.0
-pytest==8.4.3
+pytest==8.3.4
+python-dotenv==1.0.0
