@@ -21,6 +21,10 @@ typer==0.9.0
 tqdm==4.66.1
 safetensors==0.4.2
 
+sentence-transformers==2.2.2
+spacy==3.7.2
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
 # Optional / dev
 jupyterlab==4.3.1
 black==24.3.0
