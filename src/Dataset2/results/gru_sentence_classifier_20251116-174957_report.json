@@ -1,0 +1,236 @@
+{
+  "stage": "gru_sentence_classifier",
+  "config": {
+    "train_articles": 20000,
+    "val_articles": 2000,
+    "test_articles": 2000,
+    "rouge_label_threshold": 0.35,
+    "top_k_sentences": 3,
+    "decision_threshold": 0.5,
+    "max_vocab": 30000,
+    "max_seq_len": 96,
+    "embed_dim": 256,
+    "hidden_size": 256,
+    "num_layers": 1,
+    "dropout": 0.2,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_epochs": 8,
+    "early_stopping_patience": 2,
+    "dev_mode": false,
+    "device": "cuda",
+    "seed": 42
+  },
+  "training_time_seconds": 922.010987997055,
+  "train_history": [
+    {
+      "epoch": 1,
+      "loss": 0.21372855593944537
+    },
+    {
+      "epoch": 2,
+      "loss": 0.2058026133485464
+    },
+    {
+      "epoch": 3,
+      "loss": 0.20271187741977395
+    },
+    {
+      "epoch": 4,
+      "loss": 0.1992931504063993
+    }
+  ],
+  "val_history": [
+    {
+      "epoch": 1,
+      "loss": 0.25929426576806464,
+      "precision": 0.6666666666666666,
+      "recall": 0.00036330608537693006,
+      "f1": 0.0007262164124909223
+    },
+    {
+      "epoch": 2,
+      "loss": 0.25593319112955315,
+      "precision": 0.5343511450381679,
+      "recall": 0.025431425976385105,
+      "f1": 0.04855210681463499
+    },
+    {
+      "epoch": 3,
+      "loss": 0.26508286082551547,
+      "precision": 0.5925925925925926,
+      "recall": 0.0029064486830154405,
+      "f1": 0.005784526391901662
+    },
+    {
+      "epoch": 4,
+      "loss": 0.26162539760352144,
+      "precision": 0.5669291338582677,
+      "recall": 0.013079019073569483,
+      "f1": 0.02556818181818182
+    }
+  ],
+  "test_metrics": {
+    "precision": 0.5281385281385281,
+    "recall": 0.023763147643163226,
+    "f1": 0.045479962721342033,
+    "bleu": 10.357014767570744,
+    "rouge1": 34.57300255127418,
+    "rouge2": 12.932466756855021,
+    "rougeL": 23.33097614932493,
+    "meteor": 29.448541119545133
+  },
+  "samples": [
+    {
+      "article_id": "f00ae3c3929d829cd469ba4f229cc613b0766203",
+      "highlights": "the comedian stayed with flavours who offer a painting in venice break . jenny and her partner geof stayed at the farmhouse villa bianchi . days involved sitting in medieval market towns with a brush and prosecco .",
+      "predicted_summary": "comedian jenny eclair travelled with her other half on a painting in venus break with flavours . staying in treviso, just outside venice, jenny stayed in a nine-strong crew of wannabe artists and keen cooks . heavenly backdrop: church of santa maria della salute at dusk, venice, just one of the venetian sights that provided inspiration in the historic city .",
+      "top_sentence_indices": [
+        0,
+        27,
+        38
+      ],
+      "probabilities": [
+        0.1870451718568802,
+        0.14238198101520538,
+        0.18449708819389343
+      ]
+    },
+    {
+      "article_id": "9e451f79499e5c784222b3f237c6ae4829849d79",
+      "highlights": "the federal government will give shoshana hebshi 40,000 as compensation for being ethnically profiled . hebshi, who has a jewish mother and saudi arabian father, has said she was discriminated against based on her dark complexion . hebshi was detained along with two indian men she was seated next to . 'people do not forfeit their constitutional rights when they step onto an airplane,' said aclu attorney rachel goodman .",
+      "predicted_summary": "won her case: shoshana hebshi, of sylvania, ohio, who was strip-searched at a detroit-area airport, will gain 40,000 as compensation for being humiliated . yoga instructor: hebshi works as a freelance writer, yoga instructor, and is a mother to two twins . ethnically profiled: shoshana hebshi, a woman of arab and jewish descent was strip-searched at detroit metropolitan airport on the 10th anniversary on 9 11 .",
+      "top_sentence_indices": [
+        3,
+        4,
+        16
+      ],
+      "probabilities": [
+        0.23040638864040375,
+        0.1979263722896576,
+        0.20920158922672272
+      ]
+    },
+    {
+      "article_id": "dae58055bd50598b93a230aa3a58e0d2f519b536",
+      "highlights": "novak djokovic beat andy murray 7-6 4-6 6-0 in miami open 2015 final . djokovic lost his cool after losing the second set to the brit in florida . world no 1 djokovic shouted at his support team next to a scared ball boy . after seeing the replay, the serbian posted an apology video on facebook . click here for all the latest news from the world of tennis .",
+      "predicted_summary": "djokovic shouted at his backroom team after he lost the second set of the final to andy murray . djokovic raises his arms after claiming victory over murray 7-6 4-6 6-0 in the miami open final on sunday . djokovic kisses the tophy for the title he's now won five times after beating murray, who is now world no 3 .",
+      "top_sentence_indices": [
+        4,
+        23,
+        25
+      ],
+      "probabilities": [
+        0.3680481016635895,
+        0.3734147250652313,
+        0.24206668138504028
+      ]
+    },
+    {
+      "article_id": "c05bda9b387ec8ae43803170b6f59b4b82505db9",
+      "highlights": "most of those released were women and children . freed yazidis sent to capital of iraq's kurdish region .",
+      "predicted_summary": "the freed yazidis were received by peshmerga, who sent them to the kurdish regional capital, irbil, said nuri osman, an official with iraq's kurdistan regional government. the u.s. state department estimates that 500,000 yazidis live in northern iraq, accounting for less than 1 of the country's population.",
+      "top_sentence_indices": [
+        3,
+        18,
+        19
+      ],
+      "probabilities": [
+        0.08781302720308304,
+        0.25484272837638855,
+        0.09900517016649246
+      ]
+    },
+    {
+      "article_id": "5c7493c6f28cfd58aa7b5f0e486e611307b4126d",
+      "highlights": "second modified, armored van spotted near des moines, iowa alongside the one that hillary clinton travels in . visually identical black vehicles' biggest difference is the color of their new york license plates . one is a chevy and the other a gmc but they are mechanically identical and one was seen using secret service-fitted red and blue lights . van dubbed 'scooby' in homage to the scooby-doo cartoon show brought clinton to iowa from her new york house . 'scooby-two' made its debut in norwalk, iowa on wednesday outside a fruit processing plant where clinton made a scripted appearance .",
+      "predicted_summary": "convoy: scooby-one and scooby-two took up positions in hillary's motorcade on a freeway near des moines . hillary clinton climbs into the so-called scooby van after a campaign stop at capital city fruit in norwalk, iowa . flashers: 'scooby-two' forced an iowa motorist to leave the roadway on wednesday so it could go through a red light and rejoin the caravan .",
+      "top_sentence_indices": [
+        8,
+        10,
+        17
+      ],
+      "probabilities": [
+        0.304765909910202,
+        0.29069241881370544,
+        0.32132768630981445
+      ]
+    },
+    {
+      "article_id": "bc42c6d33bf59c3b4d87e834927605b90eadb935",
+      "highlights": "tim swiel spent four months on loan at harlequins earlier this season . the 23-year-old featured in the european champions cup and lv cup . the fly-half will return to the club on a full-time contract next season .",
+      "predicted_summary": "harlequins have announced that fly-half tim swiel will return to the club next season on a full-time contract. swiel, 21, spent four months on loan with quins earlier this term before heading back to the durban-based sharks in south africa. tim swiel will return to h .",
+      "top_sentence_indices": [
+        0,
+        1,
+        3
+      ],
+      "probabilities": [
+        0.21069671213626862,
+        0.43281665444374084,
+        0.13877126574516296
+      ]
+    },
+    {
+      "article_id": "16b22d0148fef4baa24dcc330b6ac81a363c0f1e",
+      "highlights": "the project accidentally mistook one african-american comic for another . they used footage of jay pharoah when promoting michael che interview . viewers of twitter were quick to point out the embarrassing mix-up . presenter waleed aly apologised for the mistake later in the program . ironically, aly was the subject of a strikingly similar mix-up this year .",
+      "predicted_summary": "us comic jay pharoah caught wind of his unexpected feature on the channel ten program, retweeting a video from a fan to more than 144,000 followers . presenter waleed aly apologised for the mix-up, which was ironic as he was the subject of a strikingly similar mix-up earlier this year . waleed aly apologised for the embarrassing stuff up later on during the program after the mistake was flagged by gobsmacked twitter users .",
+      "top_sentence_indices": [
+        6,
+        16,
+        20
+      ],
+      "probabilities": [
+        0.305653840303421,
+        0.30246758460998535,
+        0.26712143421173096
+      ]
+    },
+    {
+      "article_id": "4dc06ca396df68b214798dc92c31808ab0dcb87a",
+      "highlights": "liverpool lost 2-1 to aston villa in the fa cup semi-final at wembley . steven gerrard's dream of making the fa cup final were shattered . gerrard started the game in an advanced role behind raheem sterling . the first half largely passed gerrard by at wembley . the reds midfielder, however, almost snatched an equaliser at the death .",
+      "predicted_summary": "liverpool midfielder steven gerrard (left) competes for posession with kieran richardson . rodgers tweaked liverpool, and gerrard's, shape for a third time at the interval, as the reds went 4-3-2-1 with gerrard playing deepest of the midfield three. gerrard leaves the pitch following his side's 2-1 fa cup semi-final defeat by villa .",
+      "top_sentence_indices": [
+        3,
+        6,
+        19
+      ],
+      "probabilities": [
+        0.13469524681568146,
+        0.1315266489982605,
+        0.21224366128444672
+      ]
+    },
+    {
+      "article_id": "b39341c062db854a18fefb0f100976103705a086",
+      "highlights": "morrissey wrote a letter to australian retailer the just group . they own just jeans, dotti, portmans, jay jays, and peter alexander . the group have so far refused to stop selling controversial angora wool . singer to ask audience at sydney concert to sign petition against company . morrissey has also banned the sale of meat products at opera house . myer, david jones, sportsgirl among those who've agreed to angora ban .",
+      "predicted_summary": "warning: graphic content . new campaign: morrissey has written a letter to australian retailer the just group imploring them to stop the use of angora wool . protest: morrissey, 55, pledged to set up petition booths for attendees at his sydney concerts to sign if the just group do not comply .",
+      "top_sentence_indices": [
+        3,
+        4,
+        15
+      ],
+      "probabilities": [
+        0.34360063076019287,
+        0.2570301294326782,
+        0.3523990511894226
+      ]
+    },
+    {
+      "article_id": "9a953efc47ed0dd24bfd495e56c273f6d370aad6",
+      "highlights": "manny pacquiao faces floyd mayweather in 300m showdown on may 2 . pac-man has released own entrance song 'lalaban ako para sa filipino' the 36-year-old also directed the music video ahead of las vegas clash .",
+      "predicted_summary": "manny pacquiao revealed yet another of his talents by releasing his own walk-out tune ahead of his 300m mega-fight with floyd mayweather jnr. pacquiao was joined by his dog pacman as he ran around one of north america's largest urban parks . pacquiao has revealed the colourful mouthpiece he will wear during the may 2 bout in las vegas .",
+      "top_sentence_indices": [
+        2,
+        13,
+        14
+      ],
+      "probabilities": [
+        0.16088032722473145,
+        0.2889813482761383,
+        0.3704575300216675
+      ]
+    }
+  ]
+}
