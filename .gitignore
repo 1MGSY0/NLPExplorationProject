@@ -4,6 +4,7 @@ data/Dataset3
 Application-1/BERT_sentiment
 Application-2/t5_summarizer
 Application-2/tmp_trainer
+textrank
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
