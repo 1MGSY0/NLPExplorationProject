@@ -2,6 +2,7 @@ data/Dataset1
 data/Dataset2 
 data/Dataset3
 Application-1/BERT_sentiment
+textrank
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
