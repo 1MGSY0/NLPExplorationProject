@@ -1,10 +1,10 @@
 data/Dataset1 
 data/Dataset2 
 data/Dataset3
-Application-1/BERT_sentiment
-Application-2/t5_summarizer
-Application-2/tmp_trainer
-textrank
+Dataset1/Application-1/BERT_sentiment
+Dataset1/Application-2/t5_summarizer
+Dataset1/Application-2/tmp_trainer
+Dataset1/textrank
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
