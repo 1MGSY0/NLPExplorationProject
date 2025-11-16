@@ -2,6 +2,7 @@ data/Dataset1
 data/Dataset2 
 data/Dataset3
 Dataset1/Application-1/BERT_sentiment
+Dataset1/Application-1/tmp_trainer
 Dataset1/Application-2/t5_summarizer
 Dataset1/Application-2/tmp_trainer
 Dataset1/textrank
