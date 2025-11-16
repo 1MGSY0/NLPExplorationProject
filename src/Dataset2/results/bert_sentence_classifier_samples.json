@@ -1,0 +1,306 @@
+{
+  "validation": [
+    {
+      "article_id": "b73ed8b71f8e326e94c94d92706e053cb370626d",
+      "highlights": "was last spotted in burma in 1941,and was thought to have died out . scientists used a recording of its distinctive call to rediscover species . discovery proves bird and habitat both still exist in myanmar .",
+      "predicted_summary": "a bird that was long thought to have gone extinct has been rediscovered in burma after a team of scientists used a recording of the species' distinctive call to track it down. re-discovered: the jerdon's babbler which was thought extinct for 73 years until scientists found evidence of it living in burma . birds fly over the moe yun gyi wetlands in bago division, myanmar, where jerdon's babbler was re-discovered 73 years after it was believed to be extinct .",
+      "top_sentence_indices": [
+        0,
+        3,
+        14
+      ],
+      "probabilities": [
+        0.18623310327529907,
+        0.16963624954223633,
+        0.19859100878238678
+      ]
+    },
+    {
+      "article_id": "6c49472424f6cfb4558c3fe57786bcccf7f57ca6",
+      "highlights": "pastor mal feebrey discovered he had terminal liver disease in 2010 . he had developed a close friendship with bali nine kingpin andrew chan . when chan learnt of his condition, he immediately offered his own liver . 'he was sort of like, if they want to kill me, then you can have my liver' he received another donation but said he would never forget the gesture . mr feebrey said it would be tragic if chan and sukumaran were executed . the pair's appeal for clemency will recommence thursday march 20 .",
+      "predicted_summary": "mal feebrey (above left), a men's mental health ambassador, had been diagnosed with terminal liver disease in 2010, when bali nine kingpin andrew chan (above right), with whom he had formed a close friendship, offered his own liver up for transplant . 'but i do think the death penalty is too excessive.' sukumaran was convicted in 2005 after attempting to smuggle 8.3kg of heroin from bali to australia. foreign minister julie bishop has written to the indonesia government offering to cover the cost of life imprisonment for the condemned pair if they agree to call off their executions.",
+      "top_sentence_indices": [
+        4,
+        36,
+        49
+      ],
+      "probabilities": [
+        0.15798518061637878,
+        0.14566189050674438,
+        0.16138716042041779
+      ]
+    },
+    {
+      "article_id": "80770b0b9213281ecfc0a49fe5222a74536da161",
+      "highlights": "everton take on dynamo kiev in the europa league last 16 . the toffees currently lead the tie 2-1 on aggregate . martinez says the poor condition of the pitch will cause problems .",
+      "predicted_summary": "everton players train ahead of their europa league round of 16 second-leg with dynamo kiev . everton currently lead the tie 2-1 on aggregate following their win at goodison park in the first-leg . leighton baines (left) stretches alongside everton team-mate luke garbutt at the olympic stadium .",
+      "top_sentence_indices": [
+        4,
+        5,
+        12
+      ],
+      "probabilities": [
+        0.2522363066673279,
+        0.19231586158275604,
+        0.22713977098464966
+      ]
+    },
+    {
+      "article_id": "63f094102f2bb011ee14bfea41f8cd87fb56a444",
+      "highlights": "hospitals still failing to claw back the cost of treating europeans on nhs . comes as the health tourism gap soars to almost 700million a year . uk now pays 15 for healthcare costs for britons who fall ill abroad . but in return it only receives 1 from foreigners who get nhs treatment . pm and health secretary have pledge to introduce measures to recoup cost .",
+      "predicted_summary": "one london hospital trust alone king s college is owed almost 18million from overseas patients. health minister dan poulter was even photographed with a new mother from zimbabwe who is still being pursued for a 3,000 bill. zimbabwe-born caroline nyadzayo s unpaid bill is part of the 62million cost of health tourism to britain.",
+      "top_sentence_indices": [
+        12,
+        15,
+        38
+      ],
+      "probabilities": [
+        0.16647087037563324,
+        0.18598902225494385,
+        0.2722184956073761
+      ]
+    },
+    {
+      "article_id": "a001649f8f4c68c0eca9192f9f6bc301c77d73f3",
+      "highlights": "north carolina state university has disbanded its pi kappa phi chapter . book with 'reprehensible' quotes found near school's campus in raleigh . school suspended social events with alcohol at more than 20 other frats . ban does not apply to historically black greek organizations .",
+      "predicted_summary": "north carolina state university disbanded a fraternity chapter wednesday following the discovery of a notebook filled with sexist and racially offensive entries in a restaurant off campus. university chancellor randy woodson announced that the tau chapter of the pi kappa phi fraternity was disbanded, effective immediately. north carolina state university disbanded pi kappa phi after a book containing sickening jokes about rape and lynching was found by a female student at a restaurant near the school's campus in raleigh .",
+      "top_sentence_indices": [
+        0,
+        2,
+        4
+      ],
+      "probabilities": [
+        0.2004658579826355,
+        0.1636192798614502,
+        0.18428172171115875
+      ]
+    },
+    {
+      "article_id": "9a54a12be8adeb1e923d71370fceabcece0af7e0",
+      "highlights": "former celtic and barcelona star manages back in his homeland sweden . the helsingborg manager believes young players earn too much . larsson introduced a salary cap for the club to begin in the 2015 season .",
+      "predicted_summary": "former celtic and barcelona striker henrik larsson now manages at his former club side helsingborg . the former sweden international gets emotional during his last playing appearance for helsingborg in 2009 . the 43-year-old finds the back of the net for sweden in the 2006 world cup group stage clash with england .",
+      "top_sentence_indices": [
+        3,
+        7,
+        12
+      ],
+      "probabilities": [
+        0.3188539147377014,
+        0.13038183748722076,
+        0.23859868943691254
+      ]
+    },
+    {
+      "article_id": "7f93debcedd84373299a2d6c697365701267ecfb",
+      "highlights": "eight-minute propaganda video shows isis soldiers training in a busy city . they rappel down tall buildings as hundreds of people watch from below . extremists practice army crawls on pavements and fitness through traffic . 'elite' extremist soldier gets stuck on rope after descending down building . 'they wouldn't worry regular soldiers' says former sas-man andy mcnab . follows release of images which showed islamic state's 'sniper battalion'",
+      "predicted_summary": "through its vast social media channels, it released pictures of bearded and clean-shaven men posing with long-range sniper rifles in northern iraq. the unit is part of the ninewa division of northern iraq according to us-based jihadi tracking organisation site. isis snipers have seen action in both syria and iraq where they have been responsible for the deaths of many kurdish and iraqi soldiers.",
+      "top_sentence_indices": [
+        30,
+        33,
+        34
+      ],
+      "probabilities": [
+        0.12696968019008636,
+        0.1225162148475647,
+        0.13038502633571625
+      ]
+    },
+    {
+      "article_id": "afb6fa2ca542c9bbdfe9762db2ded377dff40289",
+      "highlights": "bali nine drug smuggler tan duc thanh nguyen was convicted in 2005 . he has spent ten years behind bars for his role in the drug smuggling plot . 'am i guilty? yes. am i sorry? more than anyone will ever know,' he says . nguyen was jailed for life but is terrified of being given a death sentence . the 31-year-old has launched a desperate online plea for help to raise funds for another legal appeal to reduce his sentence . 'while they are alive, we have hope,' he says of chan and sukumaran .",
+      "predicted_summary": "tan duc thanh nguyen was arrested with chan and sukumaran in 2005 for his role in a plot to smuggle 8kg of heroin out of bali and into australia. the bali nine consists of nine australians who were arrested in indonesia in 2005 for a plot to smuggle 8kg of heroin out of the country and into australia . rush was found with 1.3 kilograms of heroin strapped to his body when he was just 19 .",
+      "top_sentence_indices": [
+        1,
+        21,
+        51
+      ],
+      "probabilities": [
+        0.3031342029571533,
+        0.26851627230644226,
+        0.24501191079616547
+      ]
+    },
+    {
+      "article_id": "91f1515dc61d61653ca085e077d3ef3bf8f262ae",
+      "highlights": "american-made clothing brands try to cut out middleman, selling directly to consumers . pros include smaller margins that can lower prices for consumers . social media make finding customers easier, but it's still an uphill battle .",
+      "predicted_summary": "when it sold out, the company started working on a five-pocket selvedge denim jean sourced from north carolina and cut and sewn in los angeles. chris sutton started out making one pair of jeans at a time in his cincinnati, ohio, workshop. sweatshirts sold under the victor label will be made from organic cotton in the same factory as noble denim.",
+      "top_sentence_indices": [
+        39,
+        42,
+        48
+      ],
+      "probabilities": [
+        0.12753154337406158,
+        0.24244554340839386,
+        0.17873074114322662
+      ]
+    },
+    {
+      "article_id": "f88b1273c3f98bf6d9590da49428a1661a65c7c1",
+      "highlights": "mukesh singh, convicted over the 2012 attack, said the victim was to blame . physiotherapy student died after being savagely attack in new delhi . but singh said she brought the murder on herself, 'for being out at night' 'she should just be silent and allow the rape,' he added . his comments were made in a documentary by a british filmmaker . home minister rajnath singh denounced the comments . he told india's parliament they were 'an affront to the dignity of women' indian court has ordered the banning of the documentary, india's daughter .",
+      "predicted_summary": "indian activists take part in a vigil to mark the second anniversary of the fatal gang-rape of a student in new delhi . the physiotherapy student died from her injuries 13 days after she was savagely attacked on a bus while on her way home from the cinema. india's ndtv network was due to have shown the documentary to mark international women's day on sunday, when it will also be broadcast in six other countries including britain.",
+      "top_sentence_indices": [
+        4,
+        9,
+        12
+      ],
+      "probabilities": [
+        0.14157764613628387,
+        0.3313504755496979,
+        0.18889914453029633
+      ]
+    }
+  ],
+  "test": [
+    {
+      "article_id": "f00ae3c3929d829cd469ba4f229cc613b0766203",
+      "highlights": "the comedian stayed with flavours who offer a painting in venice break . jenny and her partner geof stayed at the farmhouse villa bianchi . days involved sitting in medieval market towns with a brush and prosecco .",
+      "predicted_summary": "comedian jenny eclair travelled with her other half on a painting in venus break with flavours . flavours (flavoursholidays.co.uk, 0131 343 2500) offers a seven-night full-board painting in venice break from 1,599pp, including wine with meals, five days of tuition, excursions, and 100 towards flight costs. british airways (ba.com) offers return flights to venice from heathrow, gatwick and london city from 77pp.",
+      "top_sentence_indices": [
+        0,
+        51,
+        52
+      ],
+      "probabilities": [
+        0.15256276726722717,
+        0.09447405487298965,
+        0.25099414587020874
+      ]
+    },
+    {
+      "article_id": "9e451f79499e5c784222b3f237c6ae4829849d79",
+      "highlights": "the federal government will give shoshana hebshi 40,000 as compensation for being ethnically profiled . hebshi, who has a jewish mother and saudi arabian father, has said she was discriminated against based on her dark complexion . hebshi was detained along with two indian men she was seated next to . 'people do not forfeit their constitutional rights when they step onto an airplane,' said aclu attorney rachel goodman .",
+      "predicted_summary": "the federal government will give shoshana hebshi 40,000 as compensation for being humiliated on the 10th anniversary of the 9 11 terrorist attacks after armed agents forced her from a plane at detroit metropolitan airport, made her undress during a search and held her for hours. yoga instructor: hebshi works as a freelance writer, yoga instructor, and is a mother to two twins . ethnically profiled: shoshana hebshi, a woman of arab and jewish descent was strip-searched at detroit metropolitan airport on the 10th anniversary on 9 11 .",
+      "top_sentence_indices": [
+        1,
+        4,
+        16
+      ],
+      "probabilities": [
+        0.11967968940734863,
+        0.11281131953001022,
+        0.20102207362651825
+      ]
+    },
+    {
+      "article_id": "dae58055bd50598b93a230aa3a58e0d2f519b536",
+      "highlights": "novak djokovic beat andy murray 7-6 4-6 6-0 in miami open 2015 final . djokovic lost his cool after losing the second set to the brit in florida . world no 1 djokovic shouted at his support team next to a scared ball boy . after seeing the replay, the serbian posted an apology video on facebook . click here for all the latest news from the world of tennis .",
+      "predicted_summary": "novak djokovic issued an apology via facebook to a ball boy he frightened during the miami open . djokovic raises his arms after claiming victory over murray 7-6 4-6 6-0 in the miami open final on sunday . djokovic kisses the tophy for the title he's now won five times after beating murray, who is now world no 3 .",
+      "top_sentence_indices": [
+        3,
+        23,
+        25
+      ],
+      "probabilities": [
+        0.2619512975215912,
+        0.24048344790935516,
+        0.199789896607399
+      ]
+    },
+    {
+      "article_id": "c05bda9b387ec8ae43803170b6f59b4b82505db9",
+      "highlights": "most of those released were women and children . freed yazidis sent to capital of iraq's kurdish region .",
+      "predicted_summary": "reports emerged from some yazidi survivors that isis raped and enslaved female yazidi captives. the u.s. state department estimates that 500,000 yazidis live in northern iraq, accounting for less than 1 of the country's population.",
+      "top_sentence_indices": [
+        14,
+        18,
+        19
+      ],
+      "probabilities": [
+        0.0812605693936348,
+        0.4418039619922638,
+        0.1367616504430771
+      ]
+    },
+    {
+      "article_id": "5c7493c6f28cfd58aa7b5f0e486e611307b4126d",
+      "highlights": "second modified, armored van spotted near des moines, iowa alongside the one that hillary clinton travels in . visually identical black vehicles' biggest difference is the color of their new york license plates . one is a chevy and the other a gmc but they are mechanically identical and one was seen using secret service-fitted red and blue lights . van dubbed 'scooby' in homage to the scooby-doo cartoon show brought clinton to iowa from her new york house . 'scooby-two' made its debut in norwalk, iowa on wednesday outside a fruit processing plant where clinton made a scripted appearance .",
+      "predicted_summary": "hillary clinton climbs into the so-called scooby van after a campaign stop at capital city fruit in norwalk, iowa . flashers: 'scooby-two' forced an iowa motorist to leave the roadway on wednesday so it could go through a red light and rejoin the caravan . the stray car s driver pulled to one side and scooby-two zoomed into the intersection, against the light .",
+      "top_sentence_indices": [
+        10,
+        17,
+        28
+      ],
+      "probabilities": [
+        0.14238102734088898,
+        0.2485732138156891,
+        0.14039835333824158
+      ]
+    },
+    {
+      "article_id": "bc42c6d33bf59c3b4d87e834927605b90eadb935",
+      "highlights": "tim swiel spent four months on loan at harlequins earlier this season . the 23-year-old featured in the european champions cup and lv cup . the fly-half will return to the club on a full-time contract next season .",
+      "predicted_summary": "harlequins have announced that fly-half tim swiel will return to the club next season on a full-time contract. swiel, 21, spent four months on loan with quins earlier this term before heading back to the durban-based sharks in south africa. tim swiel will return to h .",
+      "top_sentence_indices": [
+        0,
+        1,
+        3
+      ],
+      "probabilities": [
+        0.3612206280231476,
+        0.21500147879123688,
+        0.19973814487457275
+      ]
+    },
+    {
+      "article_id": "16b22d0148fef4baa24dcc330b6ac81a363c0f1e",
+      "highlights": "the project accidentally mistook one african-american comic for another . they used footage of jay pharoah when promoting michael che interview . viewers of twitter were quick to point out the embarrassing mix-up . presenter waleed aly apologised for the mistake later in the program . ironically, aly was the subject of a strikingly similar mix-up this year .",
+      "predicted_summary": "channel ten show the project has apologised after mistakenly using footage of the wrong african-american comic when promoting upcoming guest on the show, saturday night live star michael che. che and pharoah are both in australia to perform a string of shows at melbourne s international comedy festival. the age incorrectly printed a photo of 'legally brown' comedy star nazeem hussain in its entertainment column in january with the caption: 'waleed aly joins the project'.",
+      "top_sentence_indices": [
+        0,
+        2,
+        18
+      ],
+      "probabilities": [
+        0.1337084025144577,
+        0.19197750091552734,
+        0.13582313060760498
+      ]
+    },
+    {
+      "article_id": "4dc06ca396df68b214798dc92c31808ab0dcb87a",
+      "highlights": "liverpool lost 2-1 to aston villa in the fa cup semi-final at wembley . steven gerrard's dream of making the fa cup final were shattered . gerrard started the game in an advanced role behind raheem sterling . the first half largely passed gerrard by at wembley . the reds midfielder, however, almost snatched an equaliser at the death .",
+      "predicted_summary": "steven gerrard's hopes of a fairytale ending to his liverpool career were shattered as his side suffered a 2-1 defeat to aston villa in the semi-finals of the fa cup. liverpool midfielder steven gerrard (left) competes for posession with kieran richardson . gerrard leaves the pitch following his side's 2-1 fa cup semi-final defeat by villa .",
+      "top_sentence_indices": [
+        0,
+        3,
+        19
+      ],
+      "probabilities": [
+        0.12708935141563416,
+        0.2724669277667999,
+        0.2780478298664093
+      ]
+    },
+    {
+      "article_id": "b39341c062db854a18fefb0f100976103705a086",
+      "highlights": "morrissey wrote a letter to australian retailer the just group . they own just jeans, dotti, portmans, jay jays, and peter alexander . the group have so far refused to stop selling controversial angora wool . singer to ask audience at sydney concert to sign petition against company . morrissey has also banned the sale of meat products at opera house . myer, david jones, sportsgirl among those who've agreed to angora ban .",
+      "predicted_summary": "brutal: peta have successfully petitioned a number of australian and international retailers to stop selling angora wool after revealing the horrific treatment of rabbits at chinese angora farms . protest: morrissey, 55, pledged to set up petition booths for attendees at his sydney concerts to sign if the just group do not comply . in concert: the irish-born musician has also banned the sale of meat products at the opera house for the duration of his residency for the vivid festival in may .",
+      "top_sentence_indices": [
+        5,
+        15,
+        20
+      ],
+      "probabilities": [
+        0.35493963956832886,
+        0.2789373993873596,
+        0.35409289598464966
+      ]
+    },
+    {
+      "article_id": "9a953efc47ed0dd24bfd495e56c273f6d370aad6",
+      "highlights": "manny pacquiao faces floyd mayweather in 300m showdown on may 2 . pac-man has released own entrance song 'lalaban ako para sa filipino' the 36-year-old also directed the music video ahead of las vegas clash .",
+      "predicted_summary": "the boxing champion's song 'lalaban ako para sa filipino' translates as 'i will fight for the fillipino' the 80s style music video includes a montage of pacquiao's fights and his humanitarian efforts . pacquiao recently unveiled the multicoloured mouth guard he will wear during his 300million las vegas showdown with mayweather. pacquiao has revealed the colourful mouthpiece he will wear during the may 2 bout in las vegas .",
+      "top_sentence_indices": [
+        8,
+        11,
+        14
+      ],
+      "probabilities": [
+        0.12965214252471924,
+        0.1557220071554184,
+        0.21124610304832458
+      ]
+    }
+  ]
+}

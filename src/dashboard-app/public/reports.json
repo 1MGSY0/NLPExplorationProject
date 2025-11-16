@@ -1,0 +1,110 @@
+{
+  "tfidf": {
+    "label": "TF-IDF + Logistic Regression",
+    "metrics": {
+      "precision": 0.151,
+      "recall": 0.599,
+      "f1": 0.241,
+      "rouge1": 0.308,
+      "rouge2": 0.108,
+      "rougeL": 0.204,
+      "bleu": 0.085,
+      "meteor": 0.267
+    },
+    "dataSplit": {
+      "train": 20000,
+      "val": 2000,
+      "test": 2000
+    },
+    "params": [
+      "50k unigram/bigram TF-IDF features",
+      "Logistic regression decoder"
+    ],
+    "processing": [
+      "Rouge-0.35 sentence labels",
+      "Top-3 sentences per article"
+    ],
+    "insight": "TF-IDF uses counts of the actual words together with logistic regression, excels when highlights reuse headline phrases; its limitation is that it cannot reason beyond exact word overlap."
+  },
+  "word2vec": {
+    "label": "Word2Vec Similarity",
+    "metrics": {
+      "precision": 0.08,
+      "recall": 1,
+      "f1": 0.149,
+      "rouge1": 0.374,
+      "rouge2": 0.168,
+      "rougeL": 0.252,
+      "bleu": 0.111,
+      "meteor": 0.382
+    },
+    "dataSplit": {
+      "train": 20000,
+      "val": 2000,
+      "test": 2000
+    },
+    "params": [
+      "200d skip-gram Word2Vec",
+      "Cosine ranking against highlights"
+    ],
+    "processing": [
+      "Mean pooled sentence embeddings",
+      "Top-3 matches above cosine 0.35"
+    ],
+    "insight": "Word2Vec converts sentences into averaged meaning-based vectors and compares them with cosine similarity. It selects any semantically close sentence, which keeps precision low."
+  },
+  "gru": {
+    "label": "GRU Classifier",
+    "metrics": {
+      "precision": 0.528,
+      "recall": 0.024,
+      "f1": 0.045,
+      "rouge1": 0.346,
+      "rouge2": 0.129,
+      "rougeL": 0.233,
+      "bleu": 0.104,
+      "meteor": 0.294
+    },
+    "dataSplit": {
+      "train": 20000,
+      "val": 2000,
+      "test": 2000
+    },
+    "params": [
+      "256-d embeddings + 1-layer bi-GRU",
+      "Batch 256, lr 1e-3, dropout 0.2"
+    ],
+    "processing": [
+      "30k vocab, 96-token truncation",
+      "Rouge-0.35 labels, top-3 sentences at threshold 0.5"
+    ],
+    "insight": "The GRU model encodes each sentence token-by-token and predicts its importance, from scrach, so it shows reasonable scores but still lower then TF-IDF as it needs more supervision or pretraining."
+  },
+  "bert": {
+    "label": "DistilBERT Classifier",
+    "metrics": {
+      "precision": 0.167,
+      "recall": 0.001,
+      "f1": 0.002,
+      "rouge1": 0.332,
+      "rouge2": 0.126,
+      "rougeL": 0.223,
+      "bleu": 0.102,
+      "meteor": 0.285
+    },
+    "dataSplit": {
+      "train": 2000,
+      "val": 400,
+      "test": 400
+    },
+    "params": [
+      "distilbert-base-uncased head",
+      "Batch 16, lr 2e-5, 1 epoch"
+    ],
+    "processing": [
+      "160-token truncation",
+      "Rouge-0.35 labels, top-3 sentences at threshold 0.5"
+    ],
+    "insight": "DistilBERT brings pretrained sentence semantics that already has ROUGE above TF-IDF; this run only fine-tunes for a single epoch at a fixed threshold, so the low F1 is expected to rise once we give the classifier head more training time."
+  }
+}
